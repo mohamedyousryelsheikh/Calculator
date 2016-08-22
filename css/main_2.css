@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('fonts/Orbitron-Regular.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Orbitron';
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+#calculator {
+  width: 450px;
+  height: 270px;;
+  margin: 50px auto 0 auto;
+  background-color: #dfd8d0;
+  padding: 10px 10px 260px 10px;
+  border-radius: 5px;
+  border-bottom: 5px solid #908b85;
+}
+
+.result {
+  width: 295px;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+  background-color: #3E4651;
+  color: #fff;
+  margin: 5px;
+  position: relative;
+  left: -15px;
+}
+
+.result > p {
+  margin-left: 10px;
+}
+
+.clear, span {
+  height: 40px;
+  border-bottom: 3px solid #222121;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  background-color: #3a3a3a;
+  color: #fff;
+  margin: 5px;
+} 
+
+.clear {
+  width: 95px;
+  float: left;
+  background-color: #a72d45;
+  color: #fff;
+	border-color: #671c2a;
+}
+
+  .clear:hover {
+    background-color: #D6523C;
+  }
+
+span {
+  float: left;
+  width: 95px;
+}
+
+  span:hover {
+    background-color: #636060;
+  } 
